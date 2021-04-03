@@ -867,7 +867,7 @@ country JO: DFS-JP
 
 country JP: DFS-JP
 	# 802.11ah
-	(916.5 - 927.5 @ 1), (20)
+	(916 - 928 @ 1), (20)
 	(2402 - 2482 @ 40), (20)
 	(2474 - 2494 @ 20), (20), NO-OFDM
 	(4910 - 4990 @ 40), (23)
@@ -908,8 +908,8 @@ country KP: DFS-JP
 
 country KR: DFS-JP
 	# 802.11ah
-	# (917.5 - 923.5 @ 4), (20)
-	(925 - 930 @ 4), (20)
+	(917 - 924 @ 4), (20)
+	# (925 - 930 @ 4), (20)
 	# ref: https://www.rra.go.kr
 	(2400 - 2483.5 @ 40), (23)
 	(5150 - 5250 @ 80), (23), AUTO-BW
@@ -1628,7 +1628,7 @@ country TT: DFS-FCC
 #   http://www.ncc.gov.tw/english/show_file.aspx?table_name=news&file_sn=681
 country TW: DFS-FCC
 	# 802.11ah
-	(839 - 850 @ 8), (20)
+	(839 - 849 @ 8), (20)
 	# 2.4g band, LP0002 section 3.10.1
 	(2400 - 2483.5 @ 40), (30)
 	# 5g U-NII band, LP0002 section 4.7
